@@ -1,0 +1,22 @@
+Circuit: * D:\B Tech\Third Year\3_2\PE\Class_Participation\Class Assignment3\SCR\Phase1\HWR\HWR-RL - FD.asc
+
+.OP point found by inspection.
+
+Date: Fri Apr 12 14:54:20 2024
+Total elapsed time: 0.225 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 7278
+traniter = 7278
+tranpoints = 3016
+accept = 2595
+rejected = 421
+matrix size = 32
+fillins = 16
+solver = Normal
+Avg thread counts: 1.2/1.4/1.4/1.2
+Matrix Compiler1: 1.83 KB object code size  0.8/0.4/[0.4]
+Matrix Compiler2: 2.35 KB object code size  0.4/0.4/[0.3]
+

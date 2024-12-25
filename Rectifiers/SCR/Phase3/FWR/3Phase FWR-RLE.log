@@ -1,0 +1,30 @@
+Circuit: * D:\B Tech\Third Year\3_2\PE\Class_Participation\Class Assignment3\SCR\Phase3\FWR\3Phase FWR-RLE.asc
+
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 0.00167 to 0.00167
+Heightened Def Con from 0.005 to 0.005
+Heightened Def Con from 0.00833 to 0.00833
+Heightened Def Con from 0.01503 to 0.01503
+Heightened Def Con from 0.01833 to 0.01833
+Heightened Def Con from 0.02167 to 0.02167
+Heightened Def Con from 0.03503 to 0.03503
+Heightened Def Con from 0.05833 to 0.05833
+
+Date: Fri Apr 12 14:51:04 2024
+Total elapsed time: 0.799 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 36485
+traniter = 36476
+tranpoints = 13637
+accept = 11164
+rejected = 2481
+matrix size = 172
+fillins = 73
+solver = Normal
+Avg thread counts: 1.0/1.1/1.1/1.0
+Matrix Compiler1: 8.01 KB object code size  3.9/2.1/[2.2]
+Matrix Compiler2: 12.60 KB object code size  3.3/2.8/[1.3]
+

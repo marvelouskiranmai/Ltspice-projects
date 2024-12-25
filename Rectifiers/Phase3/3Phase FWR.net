@@ -1,0 +1,21 @@
+* C:\Users\Jayaraj Chippada\OneDrive\Pictures\Documents\LTspiceXVII\Class Assignment3\Phase3\3Phase FWR.asc
+V1 N005 0 SINE(0 220 50)
+V2 N006 0 SINE(0 220 50 0 0 120)
+V3 N007 0 SINE(0 220 50 0 0 240)
+R1 N001 0 100
+V4 N004 N001 PULSE(0 5 1.67m 1n 1n 10m 20m)
+V5 N002 N001 PULSE(0 5 15.03m 1n 1n 10m 20m)
+V6 N003 N001 PULSE(0 5 8.33m 1n 1n 10m 20m)
+V7 N008 N005 PULSE(0 5 25.03m 1n 1n 10m 20m)
+V8 N009 N006 PULSE(0 5 18.33m 1n 1n 10m 20m)
+V9 N010 N007 PULSE(0 11.67 5m 1n 1n 10m 20m)
+XU7 N005 N001 N004 SCR_ST
+XU8 0 N005 N008 SCR_ST
+XU9 0 N006 N009 SCR_ST
+XU10 0 N007 N010 SCR_ST
+XU11 N006 N001 N002 SCR_ST
+XU12 N007 N001 N003 SCR_ST
+.tran 100m
+.inc C:\Users\Jayaraj Chippada\OneDrive\Pictures\Documents\LTspiceXVII\lib\st_high-temperature_scr_pspice\st_high-temperature_scr.lib
+.backanno
+.end

@@ -1,0 +1,21 @@
+Circuit: * C:\Users\Jayaraj Chippada\OneDrive\Pictures\Documents\LTspiceXVII\Class Assignment3\Phase3\3 Phase FWR-R.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Tue Mar 26 10:53:28 2024
+Total elapsed time: 0.075 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 5296
+traniter = 5291
+tranpoints = 1974
+accept = 1592
+rejected = 382
+matrix size = 14
+fillins = 2
+solver = Normal
+Matrix Compiler1: 600 bytes object code size  0.1/0.1/[0.1]
+Matrix Compiler2: 1.05 KB object code size  0.1/0.1/[0.1]
+

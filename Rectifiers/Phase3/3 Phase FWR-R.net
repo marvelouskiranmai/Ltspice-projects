@@ -1,0 +1,16 @@
+* C:\Users\Jayaraj Chippada\OneDrive\Pictures\Documents\LTspiceXVII\Class Assignment3\Phase3\3 Phase FWR-R.asc
+V1 N002 0 SINE(0 220 50 0 0 0)
+V2 N003 0 SINE(0 220 50 0 0 120)
+V3 N004 0 SINE(0 220 50 0 0 240)
+D1 N002 N001 1N4148
+D2 N005 N004 1N4148
+D3 N003 N001 1N4148
+D4 N005 N002 1N4148
+D5 N004 N001 1N4148
+D6 N005 N003 1N4148
+R1 N001 N005 10
+.model D D
+.lib C:\Users\Jayaraj Chippada\OneDrive\Pictures\Documents\LTspiceXVII\lib\cmp\standard.dio
+.tran 0.1
+.backanno
+.end

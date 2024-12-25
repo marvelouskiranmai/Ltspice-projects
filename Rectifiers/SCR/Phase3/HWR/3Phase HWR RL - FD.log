@@ -1,0 +1,22 @@
+Circuit: * D:\B Tech\Third Year\3_2\PE\Class_Participation\Class Assignment3\SCR\Phase3\HWR\3Phase HWR RL - FD.asc
+
+Direct Newton iteration for .op point succeeded.
+
+Date: Fri Apr 12 14:51:45 2024
+Total elapsed time: 0.726 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 29016
+traniter = 29007
+tranpoints = 10240
+accept = 8572
+rejected = 1668
+matrix size = 89
+fillins = 46
+solver = Normal
+Avg thread counts: 1.0/1.1/1.1/1.0
+Matrix Compiler1: 5.05 KB object code size  2.0/1.2/[0.6]
+Matrix Compiler2: 6.62 KB object code size  0.9/1.4/[0.6]
+
